@@ -1,0 +1,51 @@
+---
+layout: default
+title: Lafayette Wedding Planner | Southern Couture Weddings - Stunning Celebrations
+description: >-
+  View the Southern Couture Weddings portfolio showcasing elegant weddings in
+  Lafayette, Youngsville, Broussard, and surrounding areas. Get inspired for
+  your perfect day.
+keywords: >-
+  wedding portfolio, Southern Couture Weddings gallery, elegant weddings,
+  wedding inspiration Lafayette, custom weddings Louisiana, Youngsville wedding
+  photos, Broussard wedding galleries, high-end wedding design, South Louisiana
+  weddings, professional wedding photos, memorable wedding moments, New Iberia
+  wedding design, Carencro event inspiration
+image: /assets/img/sc-1.jpg
+permalink: /southern-couture-weddings
+---
+<!-- Header Banner -->
+    <div class="banner-header section-padding valign bg-img bg-fixed bg-position-center" data-overlay-dark="4" data-background="/assets/img/sc-1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="editable">Southern Couture Portfolio</h1>
+                    <h5 class="editable">What we've done</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- News  -->
+    <section class="portfolio section-padding bg-lightblue">
+        <div class="container">
+            <div class="row">
+                {% for item in site.portfolio %}
+                <div class="col-lg-4 col-md-6">
+                    <a href="{{item.url}}">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="{{item.image}}" class="gallery-thumb" alt="{{item.wedding}} | Lafayette Wedding Planning By Southern Couture | Photos by {{item.photographer.name}}" /> </div>
+                        <div class="con">
+                            <h5>{{item.wedding}}</h5>
+                            <div class="line"></div>
+                            <div class="row">
+                                <div class="col-md-12 py-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

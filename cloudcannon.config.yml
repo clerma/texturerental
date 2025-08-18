@@ -1,0 +1,176 @@
+_schema: _schema
+source: /
+paths:
+  uploads: uploads
+  uploads_use_relative_path: false
+  static: ''
+  dam_uploads: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    icon: dataset
+    output: false
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    icon: post_add
+    output: true
+    description: ''
+    _enabled_editors:
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  assets:
+    path: assets/
+    icon: attach_file
+    output: true
+    parse_branch_index: false
+    description: ''
+    preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      image:
+      metadata:
+      gallery:
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: _pages
+    icon: insert_drive_file
+    output: true
+    filter: strict
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  team:
+    path: _team
+    icon: groups
+    output: true
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  portfolio:
+    path: _portfolio
+    icon: portrait
+    output: true
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  drafts:
+    path: _drafts
+    name: Drafts
+    singular_name: Draft
+    icon: mdi:insert_invitation
+    output: true
+    create:
+      publish_to: posts
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+collections_config_override: true
+_enabled_editors:
+  - visual
+  - content
+  - data
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  bio:
+    type: textarea
+    cascade: true
+  keywords:
+    type: textarea
+    cascade: true
+  review:
+    type: textarea
+    cascade: true
+  gallery:
+    type: url
+    cascade: true
+  layout:
+    type: auto
+    hidden: true
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  album:
+    type: url
+    label: Album Location
+    cascade: true
+_select_data:
+  social:
+    - name: Facebook
+      links: https://www.facebook.com/SouthernCoutureWedding
+    - name: Linkedin
+      link: http://www.linkedin.com/pub/hannah-trahan/38/310/351
+    - name: Instagram
+      link: https://www.instagram.com/southerncouturewed/
+  jekyll-archives:
+    layout: archive
+    enabled: []
+    permalinks:
+      year: /:year/
+      month: /:year/:month/
+      day: /:year/:month/:day/
+      tag: /tag/:name/
+      category: /category/:name/
+  archives: []
+_editables:
+  block:
+    options:
+      styles: assets/css/styles.css
+  image:
+    expandable: true
+    height:
+    image_size_attributes: true
+    mime_type:
+    paths:
+      uploads:
+      uploads_filename:
+      uploads_use_relative_path:
+      static:
+      dam_uploads:
+      dam_uploads_filename:
+      dam_static:
+    resize_style: cover
+    width: 0
+editor:
+  default_path:
+source_editor:
+  tab_size: 2
+  theme: monokai
+  show_gutter: true
+timezone: America/Chicago
+markdown:
+  engine:
+  options:

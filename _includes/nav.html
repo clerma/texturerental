@@ -1,0 +1,82 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container d-flex justify-content-between align-items-center">
+	<!-- Left Navigation (Desktop Only) -->
+	<div class="d-none d-lg-flex">
+	  <ul class="navbar-nav flex-row">
+		{% for item in site.data.nav limit:4 %}
+		  {% if item.dropdown %}
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} <i class="ti-angle-down"></i></a>
+			  <ul class="dropdown-menu">
+				{% for list in item.dropdown %}
+				  <li><a class="dropdown-item" href="{{ list.link }}">{{ list.name }}</a></li>
+				{% endfor %}
+			  </ul>
+			</li>
+		  {% else %}
+			<li class="nav-item">
+			  <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+			</li>
+		  {% endif %}
+		{% endfor %}
+	  </ul>
+	</div>
+
+	<!-- Logo (Always Centered) -->
+	<div class="text-md-center text-start flex-grow-1">
+	  <a class="logo" href="/">
+		<img src="/assets/img/logo.png" class="logo-img ms-2 ms-md-0" alt="{{ site.sitename }}">
+	  </a>
+	</div>
+
+	<!-- Right Navigation (Desktop Only) -->
+	<div class="d-none d-lg-flex">
+	  <ul class="navbar-nav flex-row">
+		{% for item in site.data.nav offset:4 %}
+		  {% if item.dropdown %}
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} <i class="ti-angle-down"></i></a>
+			  <ul class="dropdown-menu">
+				{% for list in item.dropdown %}
+				  <li><a class="dropdown-item" href="{{ list.link }}">{{ list.name }}</a></li>
+				{% endfor %}
+			  </ul>
+			</li>
+		  {% else %}
+			<li class="nav-item">
+			  <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+			</li>
+		  {% endif %}
+		{% endfor %}
+	  </ul>
+	</div>
+
+	<!-- Mobile Navigation Toggle Button -->
+	<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
+	</button>
+  </div>
+
+  <!-- Mobile Navigation Menu (Only Visible on Mobile Screens) -->
+  <div class="collapse d-lg-none bg-white w-100" id="navbarMobile">
+	<ul class="navbar-nav mx-5 py-2">
+	  {% for item in site.data.nav %}
+		{% if item.dropdown %}
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} <i class="ti-angle-down"></i></a>
+			<ul class="dropdown-menu">
+			  {% for list in item.dropdown %}
+				<li><a class="dropdown-item" href="{{ list.link }}">{{ list.name }}</a></li>
+			  {% endfor %}
+			</ul>
+		  </li>
+		{% else %}
+		  <li class="nav-item">
+			<a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+		  </li>
+		{% endif %}
+	  {% endfor %}
+	</ul>
+  </div>
+</nav>

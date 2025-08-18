@@ -1,0 +1,98 @@
+timezone: America/Chicago
+url: https://southerncoutureweddings.com
+include: ['_pages',' _data','login.html','login','_plugins','_team','_portfolio']
+sitename: Southern Couture Wedding
+relative_permalinks: false
+favicon: null
+lang: en
+author: Southern Couture Wedding
+disqus: null
+google_analytics: G-9HWZ53HL95
+social:
+  - name: Facebook
+    links: https://www.facebook.com/SouthernCoutureWedding
+  - name: Linkedin
+    link: http://www.linkedin.com/pub/hannah-trahan/38/310/351
+  - name: Instagram
+    link: https://www.instagram.com/southerncouturewed
+logo: /assets/img/logo.png
+locale: en_us
+collections:
+  assets:
+    output: true
+  products:
+    output: true
+  team:
+    output: true
+  portfolio:
+    output: true
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
+      _options:
+        content:
+          uploads_dir: 'uploads/:title'
+          format: p h1 h2 h3 h4 h5 h6 div
+          styles: /assets/css/style.css
+          undo: true
+          redo: true
+          left: text-left
+          center: text-center
+          right: text-right
+          justify: justify-content-center
+          bold: true
+          italic: true
+          underline: true
+          strike: true
+          subscript: false
+          superscript: false
+          blockquote: true
+          table: true
+          copyformatting: true
+          removeformat: true
+          numberedlist: true
+          bulletedlist: true
+          outdent: false
+          indent: false
+          image: true
+          link: true
+          embed: true
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product
+  - scope:
+      type: pages
+      path: _pages/index.html
+    values:
+      permalink: null
+  - scope:
+      type: posts
+    values:
+      permalink: /:title
+      layout: blog
+
+permalink: /:title
+# last-modified-at:
+#   date-format: '%d-%b-%y'
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-assets
+  - jekyll-redirect-from
+  - jekyll-last-modified-at
+exclude:
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _site

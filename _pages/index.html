@@ -1,0 +1,308 @@
+---
+layout: default
+title: Lafayette, LA Luxury Wedding Planner & Coordinator
+description: >-
+  Expert Wedding planning in Lafayette, LA. We specialize in luxury weddings,
+  seamless coordination, and elegant event design for stress-free, unforgettable
+  celebrations.
+keywords: >-
+  wedding planner, wedding coordinator, luxury wedding planning, wedding
+  planners near me, event planning company, high-end wedding coordination, aisle
+  planner, bridal planning services, custom wedding packages, wedding design
+  expert, full-service wedding planning, Louisiana wedding planner, wedding
+  planning Lafayette, Southern Couture Weddings, Lafayette LA,
+image: /assets/img/rotator/courtneypaul-9376-copy-1500x700.jpg
+permalink: /
+slider:
+  - title: Hear What Our Couples Have to Say
+    subtitle: Real Stories, Real Weddings
+    link: /wedding-planning-reviews
+    link_text: Read Love Notes
+    image: /assets/img/rotator/courtneypaul-9376-copy-1500x700.jpg
+    video: https://player.vimeo.com/video/1017777713?background=1
+  - title: Your Dream Wedding Awaits
+    subtitle: Crafting Unforgettable Moments with Precision and Passion
+    link:
+    link_text: Start Planning Today
+    image: /assets/img/rotator/courtneypaul-9376-copy-1500x700.jpg
+testimonial_video: https://www.youtube.com/watch?v=81cudzBbA_g
+services:
+  - name: Weddings
+    title: Weddings
+    description: >-
+      Weddings are our heartbeat. We can handle all of the details from "Yes" to
+      "I Do!" and make your wedding dreams a reality.
+    image: assets/img/Photo-Sep-09-2022-5-37-56-PM-copy-1-scaled-460x460.jpg
+    link: /wedding-planning-services
+  - name: Events
+    title: Events
+    description: >-
+      Experienced in planning social, corporate and Mardi Gras events. Let us
+      make your event the talk of the town.
+    image: assets/img/016-copy.jpg
+    link: /events
+  - name: Travel
+    title: Travel
+    description: >-
+      Whether relaxation or adventure, Southern Couture can help plan your dream
+      honeymoon or vacation.
+    image: assets/img/Sandals-South-Coast-Over-Water-Bungalow-2-460x460.jpg
+    link: /lafayette-travel-agent
+---
+<!-- Slider -->
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+        {% for item in page.slider %}
+        {% if item.video %}
+        <div class="video-fullscreen-wrap">
+            <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+            <div class="video-fullscreen-video" data-overlay-dark="4">
+                <iframe src="{{item.video}}" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <div class="v-middle caption overlay">
+                <div class="container">
+                    <div class="row justify-content-center">
+                            <div class="col-lg-9 col-md-12">
+                                <h4>{{item.subtitle}}</h4>
+                                <h1>{{item.title}}</h1>
+                                <div class="btn-dark"> <a href="{{item.link}}" title="Lafayette Wedding Planner Love Notes"><span>{{item.link_text}}</span></a> </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% else %}
+            <div class="text-center item bg-img" data-overlay-dark="4" data-background="{{item.image}}">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9 col-md-12">
+                                <h4>{{item.subtitle}}</h4>
+                                <h1>{{item.title}}</h1>
+                                <div class="btn-dark"> <a href="{{item.link}}" title="Lafayette Wedding Planner Near Me"><span>{{item.link_text}}</span></a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </header>
+    <!-- About -->
+    <section class="about section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="section-subtitle editable">with 20+ years of experience</div>
+                    <h1 class="section-title editable">Southern Couture</h1>
+                    <p class="editable">Southern Couture is a wedding and event planning firm with 20+ years of experience. We offer Full-Service Planning + Design, Directed Planning Services and Wedding Day Management. We love the details and seeing wedding dreams come to life. We specialize in Private Residence and Tent weddings but work with couples to create a beautiful wedding that is uniquely yours. We look forward to hearing your love story, so contact us today!</p>
+                    <!-- call -->
+                    <div class="reservations">
+                        <div class="icon"><span class="flaticon-call"></span></div>
+                        <div class="text">
+                            <p class="editable">Lets Chat</p> <a href="tel:{{site.data.company_info.phone}}" title="Call Souther Couture">{{site.data.company_info.phone}}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 animate-box" data-animate-effect="fadeInRight">
+                    <div class="row g-3">
+                        <div class="col-6 text-end"> <img class="img-fluid rounded w-75 editable" src="/assets/img/rotator/Lantier_Galatas_Wedding_0433-copy-scaled-1500x700.jpg" alt="Lantier Galatas Wedding | Southern Couture Weddings" style="margin-top: 25%;height: 10em;object-fit: cover;" /> </div>
+                        <div class="col-6 text-start"> <img class="img-fluid rounded w-100 editable" src="/assets/img/rotator/1810-CAROLINE_DRAKE_WEDDING-copy-scaled-1500x700.jpg" alt="Caroline & Drake Wedding | Southern Couture Weddings" style="height: 18em;object-fit: cover;" /> </div>
+                        <div class="col-6 text-end"> <img class="img-fluid rounded w-50 editable" src="/assets/img/452924780_18447403129002386_4819509121078790436_n.jpg" /> </div>
+                        <div class="col-6 text-start"> <img class="img-fluid rounded w-75 editable" src="/assets/img/rotator/Photo-Sep-09-2022-5-37-56-PM-copy-1-scaled-460x460.jpg" /> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sc-services -->
+    <section class="sc-service section-padding bg-cream">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-subtitle editable">Wedding Design + Planning Service</div>
+                    <div class="section-title editable">Our Portfolio</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                    {% for item in site.portfolio limit:3 %}
+                    {% capture location %}{% cycle 'right', 'left' %}{% endcapture %}
+                        <div class="sc-services {{location}}">
+                            <figure><img src="{{item.image}}" alt="{{item.wedding}} Wedding | photographed by {{item.photographer.name}}" class="img-fluid" /></figure>
+                            <div class="caption">
+                              <h3><a class="fs-6" href="{{item.photographer.website}}" target="_blank">{{item.photographer.name}}</a></h3>
+                                <h2>{{item.wedding}}</h2>
+                              {% comment %}  <p>{{item.short_description}}</p> {% endcomment %}
+                                <hr class="border-2" />
+                                <div class="info-wrapper">
+                                    <div class="more"><a href="{{item.url}}" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-12 text-center mx-auto mt-5">
+                  <p class="btn-dark"> <a href="/southern-couture-weddings"><span>View More</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Promo Video -->
+    <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="5" data-background="/assets/img/sc-1.jpg" style="background-position: center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="section-subtitle editable"><span>Creating Amazing</span></div>
+                    <div class="section-title editable"><span> Wedding Experiences</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-md-12">
+                    <a class="vid" href="{{page.testimonial_video}}">
+                        <div class="vid-btn"> <span class="icon">
+                                <i class="ti-control-play"></i>
+                            </span> </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+
+    <section class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle editable">Wedding & Event</div>
+                    <div class="section-title editable">Planning Services</div>
+                </div>
+            </div>
+            {% for item in page.services %}
+            {% capture location %}{% cycle 'left', 'right' %}{% endcapture %}
+            {% if location == 'left' %}
+            <div class="row mb-4">
+                <div class="col-md-4 p-0 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                       <img src="{{item.image}}" alt="Southern Couture | {{item.name}} | Lafayette Wedding Planning Services" />
+                    </div>
+                </div>
+                <div class="col-md-8 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
+                    <div class="content">
+                        <div class="cont text-left">
+
+                            <h4 class="editable">{{item.name}}</h4>
+                            <p>{{item.description}}</p>
+                            <div class="btn-dark"> <a href="{{item.link}}" title="Southern Couture {{item.name}} Services"><span>Learn More</span></a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="row mb-4">
+                <div class="col-md-8 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="content">
+                        <div class="cont text-left">
+
+                            <h4>{{item.name}}</h4>
+                            <p>{{item.description}}</p>
+                            <div class="btn-dark"> <a href="{{item.link}}" title="Southern Couture {{item.name}} Services"><span>Learn More</span></a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-0 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                       <img src="{{item.image}}" alt="" />
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="background bg-img bg-fixed section-padding" data-background="/assets/img/sc-2.jpg" data-overlay-dark="5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-12 text-center">
+                        <div class="testimonials-box">
+                            <div class="head-box">
+                                <h6>Testimonials</h6>
+                                <h4>What Client's Say?</h4>
+                            </div>
+                            <div class="owl-carousel owl-theme">
+                              {% for item in site.data.testimonials limit: 3 %}
+                              {% if item.video %}
+                              {% else %}
+                                <div class="item">
+                                    <p>{{item.review}}</p>
+                                    <div class="info">
+                                        <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+                                            <h6>{{item.name}}</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endif %}
+                                {% endfor %}
+
+                            </div>
+                            <div class="btn-dark mt-5">
+                            <a href="/wedding-planning-reviews" title="Read Real Reviews from happy brides"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="section-padding">
+</section>
+    <!-- Booking Form -->
+    <section class="reservation">
+        <div class="bg-secondary section-padding pb-0">
+            <div class="container">
+                <div class="row">
+                    <!-- Reservation -->
+                    <div class="col-lg-5 col-md-12 mb-30 mt-30 text-white">
+                        <h2 class="text-white editable">"People may not remember what you said, but they will never forget the way you made them feel. "</h2>
+                        <p class="text-white editable">Create unforgettable memories on your special day. Contact us today to start planning a wedding that will leave a lasting impression on everyone who attends.</p>
+                        <div class="reservations">
+                            <div class="icon color-1"><span class="flaticon-call"></span></div>
+                            <div class="text">
+                                <p class="color-1">Lets Chat</p> <a class="color-1" href="tel:{{site.data.company_info.phone}}">{{site.data.company_info.phone}}</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Booking From -->
+                    <div class="col-lg-5 offset-lg-2 col-md-12">
+                        <div class="booking-box">
+                            <div class="head-box">
+                                <h6 class="editable">Southern Couture</h6>
+                                <h4 class="editable">Contact Form</h4>
+                            </div>
+                            <div class="booking-inner clearfix">
+                                <div data-paperform-id="southerncouturecontact"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 my-4 py-6">
+
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,244 @@
+{
+	"routes": [
+		{
+			"from": "/client-investment/feed/index.rss",
+			"to": "/client-investment",
+			"status": 301
+		},
+		{
+			"from": "/client-investment/",
+			"to": "/client-investment",
+			"status": 301
+		},
+		{
+			"from": "/client-investment/comments/feed/index.rss",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/client-investment/homepage/feed/index.rss",
+			"to": "/client-investiment",
+			"status": 301
+		},
+		{
+			"from": "/leglise",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/lander?page_id=40",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/lander?hg=0",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/cafe-vermillionville/",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/5/index.html",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/events/index.html",
+			"to": "/events",
+			"status": 301
+		},
+		{
+			"from": "/contact.html",
+			"to": "/book-a-wedding-planner",
+			"status": 301
+		},
+		{
+			"from": "/contact/",
+			"to": "/book-a-wedding-planner",
+			"status": 301
+		},
+		{
+			"from": "/contact",
+			"to": "/book-a-wedding-planner",
+			"status": 301
+		},
+		{
+			"from": "/contact/index.html",
+			"to": "/book-a-wedding-planner",
+			"status": 301
+		},
+		{
+			"from": "/about/index.html",
+			"to": "/about-southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/travel",
+			"to": "/lafayette-travel-agent",
+			"status": 301
+		},
+		{
+			"from": "/travel/",
+			"to": "/lafayette-travel-agent",
+			"status": 301
+		},
+		{
+			"from": "/travel/index.html",
+			"to": "/lafayette-travel-agent",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/2/index.html",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/about/",
+			"to": "/about-southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/5/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/3/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/4/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "/mini-weddings/?fbclid=IwAR0px8rO3Qmyo8L441rIwvXUJ8iOHAe6HjY4-HKqhpw2LexnxRBePtbQ9aM",
+			"to": "/wedding-planning-services",
+			"status": 301
+		},
+		{
+			"from": "/associate-rates/",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/welcome-home-to-southern-couture/",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/a-real-southern-couture-wedding-emily-buck/",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/lander",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/success/",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/portfolio/tische-hugh",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/portfolio/amy-philip",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/category/weddings/feed/",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/a-real-southern-couture-wedding-rebecca-matt/",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/weddings/feed/",
+			"to": "/wedding-planning-services",
+			"status": 301
+		},
+		{
+			"from": "/weddings/",
+			"to": "/wedding-planning-services",
+			"status": 301
+		},
+		{
+			"from": "/contact/feed/",
+			"to": "/book-a-wedding-planner",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/portfolio/bethany-matt",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/lander?page_id=40",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/portfolios/feed/",
+			"to": "/southern-couture-weddings",
+			"status": 301
+		},
+		{
+			"from": "/le-pavillon",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/cafe-",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/cafe-vermillionville",
+			"to": "/",
+			"status": 301
+		},
+		{
+			"from": "/travel/feed/",
+			"to": "/lafayette-travel-agent",
+			"status": 301
+		},
+		{
+			"from": "/lovenotes/page/1/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/lovenotes/page/1/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/portfolios/page/2/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		},
+		{
+			"from": "http://southerncoutureweddings.com/portfolios/page/1/",
+			"to": "/wedding-planning-reviews",
+			"status": 301
+		}
+	]
+}

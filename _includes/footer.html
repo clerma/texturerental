@@ -1,0 +1,52 @@
+	<footer class="footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-column footer-about">
+						<h3 class="footer-title">About {{site.sitename}}</h3>
+						<p class="footer-about-text">Our desire is to give you more than is expected. We understand the little things that mean the most, and we work passionately to ensure your vision is brought to life while you enjoy every moment of your special day. We would love the privilege of your consideration to be a part of planning your event!</p>
+					</div>
+				</div>
+				<div class="col-md-3 offset-md-1">
+					<div class="footer-column footer-explore clearfix">
+						<h3 class="footer-title">Explore</h3>
+						<ul class="footer-explore-list list-unstyled">
+							{% for item in site.data.nav %}
+							<li><a href="{{item.link}}">{{item.name}}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="footer-column footer-contact">
+						<h3 class="footer-title">Contact</h3>
+						<p class="footer-contact-text">{{site.data.company_info.address}}{{site.data.company_info.address2}},{{site.data.company_info.city-state-zip}}
+						</p>
+						<div class="footer-contact-info">
+							<p class="footer-contact-phone"><span class="flaticon-call"></span> {{site.data.company_info.phone}}</p>
+							<p class="footer-contact-mail"><a href="mailto:{{site.data.company_info.email}}>{{site.data.company_info.email}}</a></p>
+						</div>
+						<div class="footer-about-social-list">
+							{% for item in site.social %}
+							<a href="{{item.link}}" title="{{site.sitename}} {{item.name}} Social Media Link"><i class="ti-{{item.name | downcase }} me-2"></i></a>
+							{% endfor %}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-bottom-inner">
+						<p class="footer-bottom-copy-right">© Copyright {{site.sitename}} {{ site.time | date: "%Y" }}   <span>| Site by <a href="https://carloslerma.com" target="_blank">Carlos Lerma</a></span> </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,175 @@
+---
+layout: default
+title: >-
+ Lafayette LA Wedding Planning, Management & Design Services | Southern Couture
+ Weddings
+description: >-
+ Explore our full-service wedding planning, coordination, and design services at
+ Southern Couture Weddings, tailored to couples in Lafayette, and nearby cities.
+keywords: >-
+ wedding services Lafayette, wedding planning coordination, full-service
+ weddings, Southern Couture Weddings services, wedding design experts, Carencro
+ wedding planning, New Iberia wedding design, Abbeville wedding services,
+ Youngsville weddings, Broussard event coordination, luxury wedding design,
+ custom wedding packages, professional planning Lafayette, Louisiana weddings
+image: /assets/img/tent.jpg
+permalink: /wedding-planning-services
+services:
+ -
+  service_name: Full-Service Wedding Planning & Design
+  service_subtext: Experiences
+  description: >-
+   For the couple that wants a dream wedding but isn't sure how to create it.
+   Let Southern Couture create a vision based on your personalities as a couple.
+   Full-service planning, styling and design included.
+  image: /assets/img/tent.jpg
+  pop_description: >-
+   Our comprehensive planning and coordination services ensure every aspect of
+   your wedding is meticulously handled. From the execution of your decor
+   concept to managing vendor bookings and providing day-of assistance, we cover
+   all the details so you can enjoy a stress-free experience. Here's how we make
+   your wedding day perfect:
+  includes:
+   - Execution of Decor Concept
+   - Creation of Spending Plan
+   - Create & Manage Timeline for Vendor Bookings
+   - Monthly To-do Lists
+   - Personalized Vendor Referrals
+   - Correspondence with Each Vendor Throughout Planning Process
+   - Attendance & Facilitation at Each Vendor Meeting
+   - Coordination of Wedding Stationery (save the dates, invitations, etc)
+   - Negotiation & Coordination of Hotel Room Blocks
+   - Creation of Venue Layout to Ensure Proper Flow
+   - Etiquette & Planning Advice Throughout the Process
+   - Confirm All Vendors & Setup Times
+   - Creation of Wedding Day Timeline
+   - Wedding Party Itinerary Cards
+   - Provide 'Emergency Kit' for Wedding Day
+   - Check & Finalize Ceremony & Reception Site is Set as Expected
+   - Pin Boutonnieres Prior to Pictures
+   - >-
+    Coordination of Rehearsal, Ceremony and 4-hour Reception (additional hours
+    can be arranged)
+   - Cake Cutting Service for Bride & Groom's Cake
+   - Load Gifts & Personal Belongings Into the Designated Vehicle
+   - Distribute Final Payments/Gratuities to Vendors on Wedding Day
+   - Provision of Food & Drinks for Bride/Groom from Food & Bar Stations
+   - Assistant to Help Execute the Wedding Day
+   - Email & Phone Support
+ -
+  service_name: Wedding Day Management
+  service_subtext: Executed by a Southern Couture Wedding Day Director
+  description: >-
+   You have your day planned now let Southern Couture serve as your
+   representative to direct vendors and execute every last minute of your
+   wedding day. Confirmation of vendor setup times, timeline and direction of
+   rehearsal, ceremony, and reception included.
+  image: /assets/img/wedding.jpg
+  pop_description: >-
+   Our meticulous wedding day management ensures that every detail is flawlessly
+   executed, from initial consultations to the final send-off. We handle
+   everything so you can focus on enjoying your special day. Here's what we
+   include in our comprehensive service:
+  includes:
+   - Initial Consultation to Review Details, Vision, and Vendors' Contracts
+   - Confirm All Vendors & Setup Times
+   - Creation of Wedding Day Timeline
+   - Wedding Party Itinerary Cards
+   - Provide 'Emergency Kit' for Wedding Day
+   - Check & Finalize Ceremony & Reception Site is Set as Expected
+   - Pin Boutonnieres Prior to Pictures
+   - >-
+    Coordination of Rehearsal, Ceremony and 4-hour Reception (additional hours
+    can be arranged)
+   - Cake Cutting Service for Bride & Groom's Cake
+   - Load Gifts & Personal Belongings Into the Designated Vehicle
+   - Distribute Final Payments/Gratuities to Vendors on Wedding Day
+   - Provision of Food & Drinks for Bride/Groom from Food & Bar Stations
+   - Assistant to Help Execute the Wedding Day
+---
+<!-- Spa-Wellness Content -->
+    <section class="sc-services-page my-8" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-subtitle editable">Your happily ever after</div>
+                    <div class="section-title editable">
+                    <h1> Lafayette Wedding Services</h1>
+                    </div>
+                    <p class="mb-30 editable">Southern Couture specializes in wedding planning and directing. If you have your entire wedding dreamed up but need help making it happen or just need help on the days prior, we can guide you along the way!
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="services section-padding2">
+        <div class="container">
+          {% for item in page.services %}
+          {% capture location %}{% cycle 'left', 'right' %}{% endcapture %}
+            <div class="row mb-4">
+              {% if location == "left" %}
+                <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeIn{{location}}">
+                    <div class="img {{location}}">
+                        <img src="{{item.image}}" alt="{{item.service_name}}" />
+                    </div>
+                </div>
+                {% endif %}
+                <div class="col-md-6 p-0 bg-lightblue valign animate-box" data-animate-effect="fadeIn{% if location == "left" %}Right{% else %}Left{% endif %}">
+                    <div class="content">
+                        <div class="cont text-{{location}}">
+                          {% if item.service_subtext %}
+                            <div class="info">
+                                <h6>{{item.service_subtext}}</h6>
+                            </div>
+                            {% endif %}
+                            <h2>{{item.service_name}}</h2>
+                            <p>{{item.description}}</p>
+                            <p class="btn-dark"><a href="#" data-bs-toggle="modal" data-bs-target="#{{item.service_name | truncatewords: 1 | remove: '...'}}"><span>Learn More</span></a> </p>
+                        </div>
+                    </div>
+                </div>
+                {% if location == "right" %}
+                <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeIn{{location}}">
+                    <div class="img {{location}}">
+                        <img src="{{item.image}}" alt=" Lafayette LA {{item.service_name}}" />
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+    </section>
+  <section class="mb-5 text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                 <h4 class="editable">We Travel!</h4>
+                 <p class="editable">Southern Couture is available for travel in the United States and worldwide. For more information on assistance in planning your destination wedding, please contact us through our <a href="/book-a-wedding-planner">Contact Form</a>.</p>
+          </div>
+      </div>
+  </div></section>
+<!-- Modal -->
+{% for item in page.services %}
+  <div class="modal fade" id="{{item.service_name | truncatewords: 1 | remove: '...'}}" tabindex="-1" aria-labelledby="{{item.service_name | truncatewords: 1 | remove: '...'}}Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-3" id="{{item.service_name | truncatewords: 1 | remove: '...'}}Label">{{item.service_name}}</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p> {{item.pop_description}}</p>
+          <ul class="list-unstyled list">
+            {% for list in item.includes %}
+          <li><i class="ti-check me-2"></i> {{list}}</li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}

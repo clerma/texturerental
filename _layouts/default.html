@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" type="image/x-icon" href="{{site.favicon}}" title="{{site.sitename}} Favicon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+<meta name="robots" content="all" />
+<link href="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}" rel="canonical"/>
+<meta property="og:url" content="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}">
+<!-- Schema other -->
+<script>
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ohh Snap Photo Booth",
+  "description": "Ohh Snap provides high-end, interactive photo booth rentals for weddings, corporate events, and special occasions. Our booths capture unforgettable moments with modern technology and instant prints.",
+  "url": "https://ohhsnapbooth.com",
+  "logo": "https://ohhsnapbooth.com/assets/logo.png",
+  "image": [
+	{
+	  "@type": "ImageObject",
+	  "url": "https://ohhsnapbooth.com/gallery/image1.jpg",
+	  "width": 1200,
+	  "height": 800
+	},
+	{
+	  "@type": "ImageObject",
+	  "url": "https://ohhsnapbooth.com/gallery/image2.jpg",
+	  "width": 1200,
+	  "height": 800
+	}
+  ],
+  "address": {
+	"@type": "PostalAddress",
+	"streetAddress": "123 Main Street",
+	"addressLocality": "Lafayette",
+	"addressRegion": "LA",
+	"postalCode": "70501",
+	"addressCountry": "US"
+  },
+  "geo": {
+	"@type": "GeoCoordinates",
+	"latitude": 30.2241,
+	"longitude": -92.0198
+  },
+  "telephone": "+1-555-123-4567",
+  "email": "hello@ohhsnapbooth.com",
+  "contactPoint": {
+	"@type": "ContactPoint",
+	"telephone": "+1-555-123-4567",
+	"contactType": "customer service",
+	"areaServed": "US",
+	"availableLanguage": "English"
+  },
+  "sameAs": [
+	"https://www.facebook.com/ohhsnapbooth",
+	"https://www.instagram.com/ohhsnapbooth",
+	"https://www.tiktok.com/@ohhsnapbooth"
+  ],
+  "openingHoursSpecification": [
+	{
+	  "@type": "OpeningHoursSpecification",
+	  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+	  "opens": "09:00",
+	  "closes": "18:00"
+	},
+	{
+	  "@type": "OpeningHoursSpecification",
+	  "dayOfWeek": ["Saturday", "Sunday"],
+	  "opens": "10:00",
+	  "closes": "16:00"
+	}
+  ],
+  "priceRange": "$$",
+  "paymentAccepted": ["Cash", "Credit Card", "PayPal"],
+  "serviceType": "Photo Booth Rental",
+  "makesOffer": {
+	"@type": "Offer",
+	"priceCurrency": "USD",
+	"price": "250.00",
+	"url": "https://ohhsnapbooth.com/book-now"
+  },
+  "aggregateRating": {
+	"@type": "AggregateRating",
+	"reviewCount": 507,
+	"ratingValue": "5.0",
+	"bestRating": 5,
+	"worstRating": 0
+  },
+  "review": [
+	{
+	  "@type": "Review",
+	  "datePublished": "2024-12-04",
+	  "description": "Ohh Snap made our event unforgettable! The team was professional, and the photo quality was stunning. Highly recommend for weddings and parties!",
+	  "author": {
+		"@type": "Person",
+		"name": "Vanessa",
+		"url": "https://www.facebook.com/vanessa.profile"
+	  },
+	  "publisher": {
+		"@type": "Organization",
+		"name": "Google Reviews"
+	  },
+	  "reviewRating": {
+		"@type": "Rating",
+		"ratingValue": "5.0",
+		"bestRating": 5,
+		"worstRating": 0
+	  }
+	},
+	{
+	  "@type": "Review",
+	  "datePublished": "2025-01-08",
+	  "description": "The best experience ever! The guests LOVED the photo booth. The digital sharing feature was a hit. Will book again!",
+	  "author": {
+		"@type": "Person",
+		"name": "Kari"
+	  },
+	  "reviewRating": {
+		"@type": "Rating",
+		"ratingValue": "5.0",
+		"bestRating": 5,
+		"worstRating": 0
+	  }
+	}
+  ]
+}
+
+</script>
+{% capture seo %}{% seo %}<meta property="og:image:width" content="1500"/>
+<meta property="og:image:height" content="1000"/>
+<meta itemprop="name" content="{{site.name}}"/>
+<meta itemprop="url" content="{% if page.url == '/' %}{{site.url}}{% else %}{{site.url}}{{page.url}}{% endif %}"/>
+<meta itemprop="description" content="{{page.description}}"/>
+<meta itemprop="thumbnailUrl" content="{{site.url}}{{page.image}}"/>
+<link rel="image_src" href="{{site.url}}{{page.image}}" />
+<meta itemprop="image" content="{{site.url}}{{page.image}}"/>
+<meta name="keywords" content="{{page.keywords}}">
+{% for item in site.social.links %}
+<meta property="og:see_also" content="{{item}}" />{% endfor %}
+
+<meta name="msvalidate.01" content="84731997131DC6D5C4CE682AF20C5C74" />
+{% endcapture %}{{seo | replace: "Jekyll" , "Southern Couture Weddings" | remove: "<!-- End Jekyll SEO tag -->"}}<!-- End Southern Couture Weddings SEO tag -->
+<!-- Styles -->
+{% include head.html %}
+</head>
+<body>
+ <!-- Preloader -->
+<div class="preloader-bg"></div>
+<div id="preloader">
+	<div id="preloader-status">
+		<div class="preloader-position loader"> <span></span> </div>
+	</div>
+</div>
+<!-- Progress scroll totop -->
+<div class="progress-wrap cursor-pointer">
+	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+	</svg>
+</div>
+	{% include nav.html %}
+
+		{{ content }}
+
+	{% include footer.html %}
+	{% include scripts.html %}
+</body>
+</html>

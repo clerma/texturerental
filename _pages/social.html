@@ -1,0 +1,39 @@
+---
+layout: social
+permalink: /social
+---
+<!-- 404 Page -->
+<section class="success section-padding vh-100">
+    <div class="v-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-10 card vh-100 text-center mx-auto mb-5 pb-5">
+                    <img src="/assets/img/logo.png" class="img-fluid pt-10 col-md-6 col-10 mx-auto" />
+                    <div class="py-md-5 py-3">
+                        {% for item in site.social %}
+                        <a href="{{item.link}}" title="{{site.sitename}} {{item.name}} Social Media Link" class="text-primary mx-5"><i class="ti-{{item.name | downcase }}"></i></a>
+                        {% endfor %}
+                    </div>
+                    <div class="col-md-8 col-11 mx-auto">
+                    <h4 class="text-primary">{{site.sitename}}</h4>
+                    <p class="text-primary editable">Our desire is to give you more than is expected. We understand the little things that mean the most, and we work passionately to ensure your vision is brought to life while you enjoy every moment of your special day. We would love the privilege of your consideration to be a part of planning your event!</p>
+                    </div>
+                    <div class="d-grid col-md-8 col-11 mx-auto">
+                        <a href="/wedding-planning-reviews" class="btn btn-primary my-3">Love Notes</a>
+                        <a href="/about-southern-couture-weddings" class="btn btn-primary my-3">Wedding & Event planning team</a>
+                        <a href="/southern-couture-weddings" class="btn btn-primary my-3">What we've done</a>
+                    </div>
+                    <div>
+                        <div class="footer-contact-info mt-5">
+                            <p class="footer-contact-phone text-primary"><span class="flaticon-call"></span> {{site.data.company_info.phone}}</p>
+                            <p class="text-primary">{{site.data.company_info.email}}</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,83 @@
+---
+layout: default
+title: >-
+  Love notes from real clients | Southern Couture Weddings - Real Client
+  Testimonials
+description: >-
+  Discover heartfelt testimonials from couples in Lafayette, Broussard, and
+  beyond who trusted Southern Couture Weddings to create their dream day.
+keywords: >-
+  Southern Couture Weddings reviews, wedding testimonials, client feedback, love
+  notes Lafayette, trusted wedding planner, wedding reviews South Louisiana,
+  Carencro wedding testimonials, Broussard wedding feedback, memorable client
+  experiences, Youngsville wedding reviews, wedding coordination praise, elegant
+  wedding services reviews, New Iberia wedding clients
+image: /assets/img/love-notes.jpg
+permalink: /wedding-planning-reviews
+---
+<!-- Testiominals -->
+   <section class="testimonials">
+       <div class="background bg-img bg-fixed section-padding" data-background="/assets/img/love-notes.jpg" data-overlay-dark="6">
+           <div class="container">
+               <div class="row justify-content-center">
+                   <div class="col-lg-6 col-md-12 text-center">
+                       <div class="testimonials-box">
+                           <div class="head-box">
+                               <h6 class="editable">Testimonials</h6>
+                               <h4 class="editable">What Client's Say?</h4>
+                           </div>
+                           <div class="testimonials owl-carousel owl-theme">
+                               {% for item in site.data.testimonials limit: 3 %}
+                               {% if item.video %}
+                               <div class="item video-wrapper video" style="min-height: inherit">
+                                 <p class="mt-4">Play {{item.name}} Video Testimonial</p>
+
+                                          <a class="vid mt-6" href="{{item.video}}">
+                                              <div class="vid-btn"> <span class="icon">
+                                                      <i class="ti-control-play"></i>
+                                                  </span> </div>
+                                          </a>
+
+                                <div class="info">
+
+                                     <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+                                         <h6>{{item.name}}</h6>
+                                     </div>
+                                 </div>
+
+                               </div>
+                               {% else %}
+                               <div class="item">
+                                   <p>{{item.review}}</p>
+                                   <div class="info">
+                                       <div class="author-img"> <img src="{{item.image}}" alt="" /> </div>
+                                       <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+                                           <h6>{{item.name}}</h6>
+                                       </div>
+                                   </div>
+                               </div>
+                               {% endif %}
+                               {% endfor %}
+
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+<section class="section-padding">
+  <div class="container">
+    <div class="row">
+      {% for item in site.data.testimonials offset: 3 %}
+      <div class="col-md-12 py-4 border-bottom">
+        <div class="info">
+          <p>{{item.review}}</p>
+        </div>
+      <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+        <h6>{{item.name}}</h6>
+      </div>
+    </div>
+      {% endfor %}
+    </div>
+</div></section>
