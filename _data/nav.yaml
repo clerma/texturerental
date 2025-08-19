@@ -6,16 +6,14 @@
   link: /wedding-planning-services
 - name: Events
   link: /events
-- name: Travel
-  link: /lafayette-travel-agent
 - name: Portfolio
   link: /southern-couture-weddings
 - name: Love Notes
   link:
   dropdown:
-  - name: Testimonials
-    link: /wedding-planning-reviews
-  - name: Press & Praise
-    link: /press-and-priase
+    - name: Testimonials
+      link: /wedding-planning-reviews
+    - name: Press & Praise
+      link: /press-and-priase
 - name: Contact
   link: /book-a-wedding-planner
