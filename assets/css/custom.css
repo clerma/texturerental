@@ -45,7 +45,11 @@ ul.circle-list li{
   pointer-events: none;
   overflow: hidden;
 }
-
+.service img{
+  height: 375px;
+  width: 100%;
+  object-fit: cover;
+}
 /* Make the iframe keep an aspect ratio, and
 position it in the middle of its parent wrapper*/
 

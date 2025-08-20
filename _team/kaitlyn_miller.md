@@ -13,7 +13,7 @@ bio: '"Coming Soon..."'
             <!-- content -->
             {% if page.image %}
             <div class="col-md-4">
-              <img src="{{page.image}}" class="img-fluid" alt="{{page.name}} - {{page.title}} | Southern Couture Weddings "/>
+              <img src="{{page.image}}" class="img-fluid" alt="{{page.name}} - {{page.title}} | Texture Event Rental Weddings "/>
             </div>
             {% endif %}
             <div class="col-lg-8">

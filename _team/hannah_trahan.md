@@ -16,7 +16,7 @@ bio: >-
   before.  I firmly believe if you love what you do, you will never work a day
   in. your life!
 
-  As owner and principal planner behind every Southern Couture event, my passion
+  As owner and principal planner behind every Texture Event Rental event, my passion
   is to design, plan and execute flawless events that reflect the style of the
   client. It is my goal that although you may not remember what I said or did,
   you will never forget the way I made you feel.
@@ -44,8 +44,8 @@ bio: >-
   the Private Events Director. She spent six years with City Club where she
   worked with a range of social to corporate events and all types of
   wedding-related events. In 2014, she fulfilled her long-time goal and opened
-  Southern Couture Weddings, in 2019, she added full-service travel as part of
-  Southern Couture. With the shift of her focus now being the design of the
+  Texture Event Rental Weddings, in 2019, she added full-service travel as part of
+  Texture Event Rental. With the shift of her focus now being the design of the
   weddings she plans, she, along with her husband, launched Texture Rental
   Collection, a boutique rental company to offer custom builds to complete her
   designs and rental inventory."
@@ -56,7 +56,7 @@ bio: >-
             <!-- content -->
             {% if page.image %}
             <div class="col-md-4">
-              <img src="{{page.image}}" class="img-fluid" alt="{{page.name}} - {{page.title}} | Southern Couture Weddings "/>
+              <img src="{{page.image}}" class="img-fluid" alt="{{page.name}} - {{page.title}} | Texture Event Rental Weddings "/>
             </div>
             {% endif %}
             <div class="col-lg-8">

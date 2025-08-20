@@ -38,7 +38,7 @@ bio: >-
             <!-- content -->
             {% if page.image %}
             <div class="col-lg-4">
-              <img src="{{page.image}}" class="img-fluid bio-pic" alt="{{page.name}} - {{page.title}} | Southern Couture Weddings "/>
+              <img src="{{page.image}}" class="img-fluid bio-pic" alt="{{page.name}} - {{page.title}} | Texture Event Rental Weddings "/>
             </div>
             {% endif %}
             <div class="col-lg-8">

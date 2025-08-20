@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Press & Praise | Southern Couture Weddings - Featured & Recognized Excellence
-description: Discover how Southern Couture Weddings has been featured in top publications and praised for our wedding planning expertise. Explore our press highlights and accolades.
-keywords: Southern Couture Weddings press, wedding planner accolades, featured weddings, recognized wedding planning, Lafayette wedding press, wedding industry recognition, wedding coordinator media, bridal magazine features, South Louisiana wedding highlights, award-winning wedding planning
+title: Press & Praise | Texture Event Rental Weddings - Featured & Recognized Excellence
+description: Discover how Texture Event Rental Weddings has been featured in top publications and praised for our wedding planning expertise. Explore our press highlights and accolades.
+keywords: Texture Event Rental Weddings press, wedding planner accolades, featured weddings, recognized wedding planning, Lafayette wedding press, wedding industry recognition, wedding coordinator media, bridal magazine features, South Louisiana wedding highlights, award-winning wedding planning
 image: /assets/img/note.jpg
 permalink: "/articles"
 ---
@@ -11,8 +11,8 @@ permalink: "/articles"
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h5 class="editable">Southern Couture</h5>
-                    <h1 class="editable">Press & Praise</h1>
+                    <h5 class="editable">Texture Rental Collection</h5>
+                    <h1 class="editable">Event Rental Articles</h1>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@ permalink: "/articles"
     <section class="news2 section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-8 col-md-12 mx-auto">
                     <div class="row">
                         {% for post in site.tags.Article %}
                         <div class="col-md-12">
@@ -40,41 +40,7 @@ permalink: "/articles"
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="news2-sidebar row">
 
-                        <div class="col-md-12">
-                            <div class="widget">
-                                <div class="widget-title">
-                                    <h6>Recent Posts</h6>
-                                </div>
-                                <ul class="">
-                                    {% for post in site.posts %}
-                                    <li>
-                                         <a href="{{ post.url }}">{{ post.title }}</a>
-                                    </li>
-                                    {% endfor %}
-
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="widget">
-                                <div class="widget-title">
-                                    <h6>Categories</h6>
-                                </div>
-                                <ul>
-                                    {% for category in site.categories %}
-                                    {% capture category_name %}{{ category | first }}{% endcapture %}
-                                    <li><a href="{{ category_name | slugize }}"><i class="ti-angle-right"></i>{{ category_name }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </div>
     </section>
