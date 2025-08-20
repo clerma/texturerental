@@ -1,6 +1,6 @@
 timezone: America/Chicago
 url: https://southerncoutureweddings.com
-include: ['_pages',' _data','login.html','login','_plugins','_team','_portfolio']
+include: ['_pages',' _data','login.html','login','_plugins','_portfolio']
 sitename: Texture Rental Collection
 relative_permalinks: false
 favicon: null
