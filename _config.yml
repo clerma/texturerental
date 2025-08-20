@@ -1,21 +1,19 @@
 timezone: America/Chicago
 url: https://southerncoutureweddings.com
 include: ['_pages',' _data','login.html','login','_plugins','_team','_portfolio']
-sitename: Southern Couture Wedding
+sitename: Texture Rental Collection
 relative_permalinks: false
 favicon: null
 lang: en
-author: Southern Couture Wedding
+author: Texture Rental Collection
 disqus: null
-google_analytics: G-9HWZ53HL95
+google_analytics: G-10B0XPFN94
 social:
   - name: Facebook
-    links: https://www.facebook.com/SouthernCoutureWedding
-  - name: Linkedin
-    link: http://www.linkedin.com/pub/hannah-trahan/38/310/351
+    links: https://www.facebook.com/profile.php?id=100087397740785
   - name: Instagram
-    link: https://www.instagram.com/southerncouturewed
-logo: /assets/img/logo.png
+    link: https://www.instagram.com/texturerentalcollection
+logo: assets/img/logo.png
 locale: en_us
 collections:
   assets:

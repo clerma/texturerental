@@ -1,19 +1,14 @@
 - name: Home
   link: /
-- name: About
-  link: /about-southern-couture-weddings
 - name: Weddings
   link: /wedding-planning-services
-- name: Events
-  link: /events
+- name: Shop
+  link: /
 - name: Portfolio
   link: /southern-couture-weddings
-- name: Love Notes
-  link:
-  dropdown:
-    - name: Testimonials
-      link: /wedding-planning-reviews
-    - name: Press & Praise
-      link: /press-and-priase
+- name: Articles
+  link: /articles
+- name: Testimonials
+  link: /rental-reviews
 - name: Contact
   link: /book-a-wedding-planner

@@ -19,13 +19,13 @@ slider:
     link: /wedding-planning-reviews
     link_text: Read Love Notes
     image: /assets/img/rotator/courtneypaul-9376-copy-1500x700.jpg
-    video: https://player.vimeo.com/video/1017777713?background=1
+    video:
   - title: Your Dream Wedding Awaits
     subtitle: Crafting Unforgettable Moments with Precision and Passion
     link:
     link_text: Start Planning Today
     image: /assets/img/rotator/courtneypaul-9376-copy-1500x700.jpg
-testimonial_video: https://www.youtube.com/watch?v=81cudzBbA_g
+testimonial_video:
 services:
   - name: Weddings
     title: Weddings
@@ -92,65 +92,24 @@ services:
     <!-- About -->
     <section class="about section-padding" data-scroll-index="1">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-30 animate-box" data-animate-effect="fadeInLeft">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-12 mb-30 animate-box text-center" data-animate-effect="fadeInLeft">
                     <div class="section-subtitle editable">with 20+ years of experience</div>
-                    <h1 class="section-title editable">Southern Couture</h1>
-                    <p class="editable">Southern Couture is a wedding and event planning firm with 20+ years of experience. We offer Full-Service Planning + Design, Directed Planning Services and Wedding Day Management. We love the details and seeing wedding dreams come to life. We specialize in Private Residence and Tent weddings but work with couples to create a beautiful wedding that is uniquely yours. We look forward to hearing your love story, so contact us today!</p>
+                    <h1 class="section-title editable">Texture Rental Collection</h1>
+                    <p class="editable">is a boutique rental company servicing weddings, Corporate Events, Social Events, Nonprofits and Fundraisers.  We can take your event to the next level by providing Tents, Lighting, Dance Floors and Staging as well as decor items such as drape, chandeliers or specialty lighting.  We are also available for small orders such as tables, chairs and linens as well as offer both pickup and delivery.  Let us add TEXTURE to your next event!</p>
                     <!-- call -->
-                    <div class="reservations">
+                    <div class="reservations mx-auto justify-content-center">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">
                             <p class="editable">Lets Chat</p> <a href="tel:{{site.data.company_info.phone}}" title="Call Souther Couture">{{site.data.company_info.phone}}</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 animate-box" data-animate-effect="fadeInRight">
-                    <div class="row g-3">
-                        <div class="col-6 text-end"> <img class="img-fluid rounded w-75 editable" src="/assets/img/rotator/Lantier_Galatas_Wedding_0433-copy-scaled-1500x700.jpg" alt="Lantier Galatas Wedding | Southern Couture Weddings" style="margin-top: 25%;height: 10em;object-fit: cover;" /> </div>
-                        <div class="col-6 text-start"> <img class="img-fluid rounded w-100 editable" src="/assets/img/rotator/1810-CAROLINE_DRAKE_WEDDING-copy-scaled-1500x700.jpg" alt="Caroline & Drake Wedding | Southern Couture Weddings" style="height: 18em;object-fit: cover;" /> </div>
-                        <div class="col-6 text-end"> <img class="img-fluid rounded w-50 editable" src="/assets/img/452924780_18447403129002386_4819509121078790436_n.jpg" /> </div>
-                        <div class="col-6 text-start"> <img class="img-fluid rounded w-75 editable" src="/assets/img/rotator/Photo-Sep-09-2022-5-37-56-PM-copy-1-scaled-460x460.jpg" /> </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
-    <!-- sc-services -->
-    <section class="sc-service section-padding bg-cream">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-subtitle editable">Wedding Design + Planning Service</div>
-                    <div class="section-title editable">Our Portfolio</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                    {% for item in site.portfolio limit:3 %}
-                    {% capture location %}{% cycle 'right', 'left' %}{% endcapture %}
-                        <div class="sc-services {{location}}">
-                            <figure><img src="{{item.image}}" alt="{{item.wedding}} Wedding | photographed by {{item.photographer.name}}" class="img-fluid" /></figure>
-                            <div class="caption">
-                              <h3><a class="fs-6" href="{{item.photographer.website}}" target="_blank">{{item.photographer.name}}</a></h3>
-                                <h2>{{item.wedding}}</h2>
-                              {% comment %}  <p>{{item.short_description}}</p> {% endcomment %}
-                                <hr class="border-2" />
-                                <div class="info-wrapper">
-                                    <div class="more"><a href="{{item.url}}" class="link-btn" tabindex="0">Details <i class="ti-arrow-right"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                    </div>
-                </div>
-                <div class="col-md-12 text-center mx-auto mt-5">
-                  <p class="btn-dark"> <a href="/southern-couture-weddings"><span>View More</span></a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- Promo Video -->
     <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="5" data-background="/assets/img/sc-1.jpg" style="background-position: center">
         <div class="container">
@@ -172,7 +131,6 @@ services:
         </div>
     </section>
     <!-- Services -->
-
     <section class="services section-padding">
         <div class="container">
             <div class="row">
@@ -261,48 +219,4 @@ services:
             </div>
         </div>
     </section>
-<section class="section-padding">
-</section>
-    <!-- Booking Form -->
-    <section class="reservation">
-        <div class="bg-secondary section-padding pb-0">
-            <div class="container">
-                <div class="row">
-                    <!-- Reservation -->
-                    <div class="col-lg-5 col-md-12 mb-30 mt-30 text-white">
-                        <h2 class="text-white editable">"People may not remember what you said, but they will never forget the way you made them feel. "</h2>
-                        <p class="text-white editable">Create unforgettable memories on your special day. Contact us today to start planning a wedding that will leave a lasting impression on everyone who attends.</p>
-                        <div class="reservations">
-                            <div class="icon color-1"><span class="flaticon-call"></span></div>
-                            <div class="text">
-                                <p class="color-1">Lets Chat</p> <a class="color-1" href="tel:{{site.data.company_info.phone}}">{{site.data.company_info.phone}}</a>
-                            </div>
-                        </div>
 
-                    </div>
-                    <!-- Booking From -->
-                    <div class="col-lg-5 offset-lg-2 col-md-12">
-                        <div class="booking-box">
-                            <div class="head-box">
-                                <h6 class="editable">Southern Couture</h6>
-                                <h4 class="editable">Contact Form</h4>
-                            </div>
-                            <div class="booking-inner clearfix">
-                                <div data-paperform-id="southerncouturecontact"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Clients -->
-    <section class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 my-4 py-6">
-
-                </div>
-            </div>
-        </div>
-    </section>
