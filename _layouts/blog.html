@@ -41,10 +41,15 @@
 	</svg>
 </div>
 	{% include nav.html %}
-<section class="section-padding">
+<section class="pt-5 mt-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				{% if page.image %}
+				<div class="col-6 me-auto mb-5"><img src="{{page.image}}" class="img-fluid"/></div>
+				{% endif %}
+				<h1>{{page.title}}</div>
+
 		{{ content }}
 			</div>
 		</div>
