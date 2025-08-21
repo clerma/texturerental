@@ -2315,6 +2315,7 @@ height: calc(100vh - 100px);
     margin-bottom: 15px;
     font-size: 50px;
     color: #BD945A;
+    font-weight: 200;
     justify-content: center !important;
 }
 .amenities .item .cont .text h5 {
