@@ -16,7 +16,7 @@ categories:
   - Featured
 tags:
   - Article
-image:
+image: /assets/img/2.jpg
 ---
 Planning a memorable event starts with the right foundation—and that’s where **Texture Rental Collection** shines. Based in **Lafayette, Louisiana**, we are a boutique event rental company proudly serving **weddings, corporate events, social gatherings, fundraisers, and nonprofit events** across **Acadiana** and beyond. Whether you're hosting an elegant outdoor wedding, a large-scale festival, or a backyard celebration, we provide the rentals and support to bring your vision to life.
 
