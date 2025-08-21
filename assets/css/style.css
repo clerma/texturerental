@@ -3242,6 +3242,102 @@ button.mfp-arrow {
     -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
     transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
+/* ======= Offers 1 style ======= */
+.offers1 {
+    position: relative;
+}
+.offers1 .item {
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.offers1 .item:hover {
+    transform: translateY(-5px);
+}
+.offers1 .item .img {
+    position: relative;
+}
+.offers1 .item .img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .5)), to(transparent));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .5) 0, transparent 100%);
+    border-radius: 5px;
+}
+.offers1 .item .img img {
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+}
+.offers1 .item .con {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+.offers1 .item .con .title {
+    font-family: "Gilda Display", serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+}
+.offers1 .item .con .arrow {
+    position: relative;
+    display: block;
+    top: 0px;
+    transform: translateX(-66%);
+    transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
+    visibility: hidden;
+    opacity: 0;
+}
+.offers1 .item:hover .con .arrow {
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+}
+.offers1 .item .con .arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #BD945A;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.offers1 .item .con .arrow a:hover {
+    background-color: #fff;
+    color: #141414;
+}
+.offers1 .item .price {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #fff;
+    color: #141414;
+    font-family: "Urbanist", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
 /* video gallery */
 .video-gallery-button {
     position: relative;

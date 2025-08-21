@@ -29,8 +29,8 @@ services:
       "I Do!" and make your wedding dreams a reality.
     image: assets/img/Unknown-1.avif
     link: /wedding-planning-services
-  - name: Seating
-    title: Seating
+  - name: Chairs
+    title: Chairs
     description: >-
       Experienced in planning social, corporate and Mardi Gras events. Let us
       make your event the talk of the town.
@@ -126,7 +126,7 @@ services:
         </div>
     </section>
     <!-- Services -->
-    <section class="services section-padding">
+    <section class="offers1 section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -134,47 +134,27 @@ services:
                     <div class="section-title editable">Rental Services</div>
                 </div>
             </div>
+            <div class="row mb-4 justify-content-center">
             {% for item in page.services %}
-            {% capture location %}{% cycle 'left', 'right' %}{% endcapture %}
-            {% if location == 'left' %}
-            <div class="row mb-4">
-                <div class="col-md-4 p-0 animate-box" data-animate-effect="fadeInLeft">
+            {% assign shop_item = site.data.shop | where: "name", item.name | first %}
+<div class="col-lg-3 col-md-6">
+                <div class="item">
+                    <div class="img"> <img src="{{item.image}}" alt="Texture Event Rental | {{item.name}} | Lafayette Wedding Planning Services"> </div>
+                    <div class="con">
+                        <div class="title">{{item.name}}</div>
+                        <div class="arrow"> <a href="{% if shop_item %}{{ shop_item.link }}{% endif %}"><span class="fa-light fa-arrow-right"></span></a> </div>
+                    </div>
+
+                </div>
+            </div>
+
+                <!-- <div class="col-md-4 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left service">
                        <img src="{{item.image}}" alt="Texture Event Rental | {{item.name}} | Lafayette Wedding Planning Services" />
                     </div>
-                </div>
-                <div class="col-md-8 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
-                    <div class="content">
-                        <div class="cont text-left">
-
-                            <h4 class="editable">{{item.name}}</h4>
-                            <p>{{item.description}}</p>
-                            <div class="btn-dark"> <a href="{{item.link}}" title="Texture Event Rental {{item.name}} Services"><span>Learn More</span></a> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% else %}
-            <div class="row mb-4">
-                <div class="col-md-8 bg-cream p-0 order2 valign animate-box" data-animate-effect="fadeInLeft">
-                    <div class="content">
-                        <div class="cont text-left">
-
-                            <h4>{{item.name}}</h4>
-                            <p>{{item.description}}</p>
-                            <div class="btn-dark"> <a href="{{item.link}}" title="Texture Event Rental {{item.name}} Services"><span>Learn More</span></a> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-0 order1 animate-box" data-animate-effect="fadeInRight">
-                    <div class="img">
-                       <img src="{{item.image}}" alt="" />
-                    </div>
-                </div>
-            </div>
-            {% endif %}
+                </div> -->
             {% endfor %}
-
+   </div>
 
         </div>
     </section>
