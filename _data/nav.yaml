@@ -1,9 +1,9 @@
 - name: Home
   link: /
-- name: Weddings
-  link: /wedding-planning-services
+# - name: Weddings
+  # link: /wedding-planning-services
 - name: Shop
-  link: /
+  link: /shop
 - name: Portfolio
   link: /southern-couture-weddings
 - name: Articles

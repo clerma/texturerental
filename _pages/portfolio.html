@@ -25,27 +25,55 @@ permalink: /southern-couture-weddings
             </div>
         </div>
     </div>
-    <!-- News  -->
-    <section class="portfolio section-padding bg-lightblue">
-        <div class="container">
-            <div class="row">
-                {% for item in site.portfolio %}
-                <div class="col-lg-4 col-md-6">
-                    <a href="{{item.url}}">
-                    <div class="item">
-                        <div class="position-re o-hidden"> <img src="{{item.image}}" class="gallery-thumb" alt="{{item.wedding}} | Lafayette Wedding Planning By Texture Event Rental | Photos by {{item.photographer.name}}" /> </div>
-                        <div class="con">
-                            <h5>{{item.wedding}}</h5>
-                            <div class="line"></div>
-                            <div class="row">
-                                <div class="col-md-12 py-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
+   <!-- Gallery Image -->
+   <section id="gallery" data-scroll-index="4" class="section-padding bg-lightbrown">
+       <div class="container galleryscroll">
+       {% assign gallery = site.data.gallery %}
+       {% for item in gallery %}
+         {% assign mod = forloop.index0 | modulo: 3 %}
+
+         {% if mod == 0 %}
+           <div class="row">
+         {% endif %}
+
+         <div class="col-lg-4 col-md-6 mb-25">
+           <div class="item">
+             <a href="{{ item.image }}" title="" class="gallery-masonry-item-img-link img-zoom">
+               <div class="img">
+                 <img src="{{ item.image }}" class="img-fluid mx-auto d-block" alt="" style="height:350px;width:350px;object-fit: cover;object-position: center;">
+               </div>
+             </a>
+           </div>
+         </div>
+
+         {% assign mod_close = forloop.index0 | modulo: 3 %}
+         {% if mod_close == 2 or forloop.last %}
+           </div>
+         {% endif %}
+       {% endfor %}
+
+           <div class="row">
+               <div class="col-lg-3 col-md-6 mb-25">
+                   <div class="item">
+                       <a href="img/gallery/04.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                           <div class="img"> <img src="img/gallery/04.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                       </a>
+                   </div>
+               </div>
+               <div class="col-lg-6 col-md-6 mb-25">
+                   <div class="item">
+                       <a href="img/gallery/05.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                           <div class="img"> <img src="img/gallery/05.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                       </a>
+                   </div>
+               </div>
+               <div class="col-lg-3 col-md-6 mb-25">
+                   <div class="item">
+                       <a href="img/gallery/06.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                           <div class="img"> <img src="img/gallery/06.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>

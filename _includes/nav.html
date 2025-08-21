@@ -4,7 +4,7 @@
 	<!-- Left Navigation (Desktop Only) -->
 	<div class="d-none d-lg-flex">
 	  <ul class="navbar-nav flex-row">
-		{% for item in site.data.nav limit:4 %}
+		{% for item in site.data.nav limit:3 %}
 		  {% if item.dropdown %}
 			<li class="nav-item dropdown">
 			  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} <i class="ti-angle-down"></i></a>
@@ -33,7 +33,7 @@
 	<!-- Right Navigation (Desktop Only) -->
 	<div class="d-none d-lg-flex">
 	  <ul class="navbar-nav flex-row">
-		{% for item in site.data.nav offset:4 %}
+		{% for item in site.data.nav offset:3 %}
 		  {% if item.dropdown %}
 			<li class="nav-item dropdown">
 			  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} <i class="ti-angle-down"></i></a>
