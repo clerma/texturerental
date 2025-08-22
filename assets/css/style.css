@@ -176,7 +176,7 @@ table,
 th,
 tr,
 td {
-    border: 1px solid #f4f5f8;
+    border: 1px solid #f4f4f4;
 }
 th,
 tr,
@@ -226,7 +226,7 @@ blockquote {
     padding: 45px;
     display: block;
     position: relative;
-    background-color: #f4f5f8;
+    background-color: #f4f4f4;
     overflow: hidden;
     margin: 35px 0;
     font-size: 15px;
@@ -574,7 +574,7 @@ hr {
     background: #000;
 }
 .bg-lightblue {
-    background: #f4f5f8 ;
+    background: #f4f4f4 ;
 }
 .bg-cream {
     background: #f6f5f5 ;
@@ -3551,8 +3551,8 @@ button.mfp-arrow {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-    border: 1px solid #f4f5f8;
-    background: #f4f5f8;
+    border: 1px solid #f4f4f4;
+    background: #f4f4f4;
     color: #000;
 }
 .ui-state-hover,
@@ -3713,10 +3713,10 @@ button.mfp-arrow {
     border: none;
 }
 .select2-container--open .select2-dropdown--above {
-    border-bottom: 1px solid #f4f5f8;
+    border-bottom: 1px solid #f4f4f4;
 }
 .select2-container--open .select2-dropdown--below {
-    border-top: 1px solid #f4f5f8;
+    border-top: 1px solid #f4f4f4;
 }
 .select2-results__option {
     padding: 10px 30px;
@@ -3724,7 +3724,7 @@ button.mfp-arrow {
     font-size: 15px;
     line-height: 20px;
     color: #000;
-    border-top: 1px solid #f4f5f8;
+    border-top: 1px solid #f4f4f4;
     text-align: center;
 }
 .select2-results__option:first-child {
@@ -3753,7 +3753,7 @@ button.mfp-arrow {
     }
     .form1 .col1 {
         width: 50%;
-        border-bottom: 1px solid #f4f5f8;
+        border-bottom: 1px solid #f4f4f4;
     }
     .form1 .c2 {
         border-right: none;
@@ -3768,19 +3768,19 @@ button.mfp-arrow {
         position: relative;
         bottom: auto;
         padding: 30px 0;
-        background: #f4f5f8;
+        background: #f4f4f4;
     }
 }
 @media (max-width: 767.98px) {
     .form1 .col1 {
         width: 100%;
         border-right: 0;
-        border-bottom: 1px solid #f4f5f8;
+        border-bottom: 1px solid #f4f4f4;
     }
     .form1 .col2 {
         width: 100%;
         border-right: 0;
-        border-bottom: 1px solid #f4f5f8;
+        border-bottom: 1px solid #f4f4f4;
     }
     .form1 .col3 {
         width: 100%;
@@ -3793,7 +3793,7 @@ button.mfp-arrow {
 /* booking form */
 .booking-box {
     position: relative;
-    background: #f4f5f8;
+    background: #f4f4f4;
     padding: 45px;
     margin-bottom: -75px;
 }
@@ -3831,7 +3831,7 @@ button.mfp-arrow {
 
 /* ======= Pricing style ======= */
 .pricing-card {
-    background-color: #f4f5f8;
+    background-color: #f4f4f4;
     margin-bottom: 30px;
 }
 .pricing-card .desc {
@@ -4321,7 +4321,7 @@ button.mfp-arrow {
 }
 /* news sidebar */
 .news2-sidebar .widget {
-    background: #f4f5f8;
+    background: #f4f4f4;
     padding: 30px;
     margin-bottom: 30px;
     overflow: hidden;

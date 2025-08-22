@@ -1,69 +1,69 @@
 - name: Bars
   icon: fas fa-glass-cheers
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12526%2C%22sf_sub_categories%22%3A%5B%22162379%22%2C%22162381%22%2C%22162390%22%2C%22162380%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12526%2C%22sf_sub_categories%22%3A%5B%22162379%22%2C%22162381%22%2C%22162390%22%2C%22162380%22%5D%7D%5D
   description: Stylish bars perfect for every event
 
 - name: Chairs
   icon: fas fa-chair
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12522%2C%22sf_sub_categories%22%3A%5B%22162361%22%2C%22162363%22%2C%22162362%22%2C%22162364%22%2C%22162365%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12522%2C%22sf_sub_categories%22%3A%5B%22162361%22%2C%22162363%22%2C%22162362%22%2C%22162364%22%2C%22162365%22%5D%7D%5D
   description: Elegant seating options for any occasion
 
 - name: Decor & Walls
   icon: fas fa-border-style
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12528%2C%22sf_sub_categories%22%3A%5B%22162388%22%2C%22162389%22%2C%22162390%22%2C%22162391%22%2C%22162392%22%2C%22162393%22%2C%22162395%22%2C%22162394%22%2C%22162396%22%2C%22162397%22%2C%22162398%22%2C%22162400%22%2C%22162399%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12528%2C%22sf_sub_categories%22%3A%5B%22162388%22%2C%22162389%22%2C%22162390%22%2C%22162391%22%2C%22162392%22%2C%22162393%22%2C%22162395%22%2C%22162394%22%2C%22162396%22%2C%22162397%22%2C%22162398%22%2C%22162400%22%2C%22162399%22%5D%7D%5D
   description: Accent walls and decor to transform spaces
 
 - name: Draping
   icon: fas fa-booth-curtain
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12524%2C%22sf_sub_categories%22%3A%5B%22162367%22%2C%22162366%22%2C%22162369%22%2C%22162368%22%2C%22162370%22%2C%22162371%22%2C%22162372%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12524%2C%22sf_sub_categories%22%3A%5B%22162367%22%2C%22162366%22%2C%22162369%22%2C%22162368%22%2C%22162370%22%2C%22162371%22%2C%22162372%22%5D%7D%5D
   description: Elegant fabric draping for dreamy aesthetics
 
 - name: Flooring
   icon: fas fa-th-large
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12556%2C%22sf_sub_categories%22%3A%5B%22162382%22%2C%22162384%22%2C%22162386%22%2C%22162383%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12556%2C%22sf_sub_categories%22%3A%5B%22162382%22%2C%22162384%22%2C%22162386%22%2C%22162383%22%5D%7D%5D
   description: Event flooring to elevate guest experience
 
 - name: Food Service
   icon: fas fa-utensils
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12532%2C%22sf_sub_categories%22%3A%5B%22162412%22%2C%22162413%22%2C%22162414%22%2C%22162415%22%2C%22162416%22%2C%22162417%22%2C%22162418%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12532%2C%22sf_sub_categories%22%3A%5B%22162412%22%2C%22162413%22%2C%22162414%22%2C%22162415%22%2C%22162416%22%2C%22162417%22%2C%22162418%22%5D%7D%5D
   description: Catering essentials for serving with style
 
 - name: Generators
   icon: fas fa-bolt
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12531%2C%22sf_sub_categories%22%3A%5B%22162406%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12531%2C%22sf_sub_categories%22%3A%5B%22162406%22%5D%7D%5D
   description: Reliable power sources for outdoor events
 
 - name: Heating & Cooling
   icon: fas fa-temperature-high
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12529%2C%22sf_sub_categories%22%3A%5B%22162403%22%2C%22162402%22%2C%22162401%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12529%2C%22sf_sub_categories%22%3A%5B%22162403%22%2C%22162402%22%2C%22162401%22%5D%7D%5D
   description: Temperature control for comfort year-round
 
 - name: Lighting
   icon: fas fa-lightbulb
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12525%2C%22sf_sub_categories%22%3A%5B%22162373%22%2C%22162374%22%2C%22162375%22%2C%22162376%22%2C%22162377%22%2C%22162378%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12525%2C%22sf_sub_categories%22%3A%5B%22162373%22%2C%22162374%22%2C%22162375%22%2C%22162376%22%2C%22162377%22%2C%22162378%22%5D%7D%5D
   description: Ambient and spotlight lighting for atmosphere
 
 - name: Linen
   icon: fas fa-scroll
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12555%2C%22sf_sub_categories%22%3A%5B%22162360%22%2C%22162356%22%2C%22162358%22%2C%22162370%22%2C%22162359%22%2C%22162355%22%2C%22162357%22%2C%22162371%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12555%2C%22sf_sub_categories%22%3A%5B%22162360%22%2C%22162356%22%2C%22162358%22%2C%22162370%22%2C%22162359%22%2C%22162355%22%2C%22162357%22%2C%22162371%22%5D%7D%5D
   description: Table linens in various colors and textures
 
 - name: Restroom Trailers
   icon: fas fa-restroom
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12530%2C%22sf_sub_categories%22%3A%5B%22162405%22%2C%22162404%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12530%2C%22sf_sub_categories%22%3A%5B%22162405%22%2C%22162404%22%5D%7D%5D
   description: Clean and classy restrooms for guests
 
 - name: Staging
   icon: fas fa-layer-group
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12527%2C%22sf_sub_categories%22%3A%5B%22162385%22%2C%22162387%22%2C%22162526%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12527%2C%22sf_sub_categories%22%3A%5B%22162385%22%2C%22162387%22%2C%22162526%22%5D%7D%5D
   description: Custom stage platforms for shows and events
 
 - name: Tables
   icon: fas fa-table-picnic
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12521%2C%22sf_sub_categories%22%3A%5B%22162351%22%2C%22162350%22%2C%22162352%22%2C%22162353%22%2C%22162354%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12521%2C%22sf_sub_categories%22%3A%5B%22162351%22%2C%22162350%22%2C%22162352%22%2C%22162353%22%2C%22162354%22%5D%7D%5D
   description: Event tables for dining and display needs
 
 - name: Tents
   icon: fas fa-campground
-  link: https://www.texturerentals.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12523%2C%22sf_sub_categories%22%3A%5B%22162407%22%2C%22162408%22%2C%22162409%22%2C%22162410%22%2C%22162411%22%5D%7D%5D
+  link: https://texturerentalcollection.tapgoods.com/shop?selectedSfCategoriesData=%5B%7B%22category_id%22%3A12523%2C%22sf_sub_categories%22%3A%5B%22162407%22%2C%22162408%22%2C%22162409%22%2C%22162410%22%2C%22162411%22%5D%7D%5D
   description: Weatherproof, stylish tents for every occasion
