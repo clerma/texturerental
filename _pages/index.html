@@ -61,7 +61,7 @@ services:
                             <div class="col-lg-10 col-md-12">
                                 <h4>{{item.subtitle}}</h4>
                                 <h1>{{item.title}}</h1>
-                                <div class="btn-dark"> <a href="{{item.link}}" title="Lafayette Wedding Planner Love Notes"><span>{{item.link_text}}</span></a> </div>
+                                {% if item.link %}<div class="btn-dark"> <a href="{{item.link}}" title="Lafayette Wedding Planner Love Notes"><span>{{item.link_text}}</span></a> </div>{% endif %}
                             </div>
                     </div>
                 </div>
@@ -155,9 +155,9 @@ services:
                     </div>
                 </div> -->
             {% endfor %}
-   
 
-        
+
+
     </section>
     <!-- Testimonials -->
     <section class="testimonials">
