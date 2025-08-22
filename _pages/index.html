@@ -34,13 +34,13 @@ services:
     description: >-
       Experienced in planning social, corporate and Mardi Gras events. Let us
       make your event the talk of the town.
-    image: assets/img/016-copy.jpg
-    link: /events
+    image: /uploads/image0.jpeg
+    link:
   - name: Tents
     title: Tents
     description: >-
-      Whether relaxation or adventure, Texture Event Rental can help plan your dream
-      honeymoon or vacation.
+      Whether relaxation or adventure, Texture Event Rental can help plan your
+      dream honeymoon or vacation.
     image: assets/img/Photo-Sep-09-2022-5-37-56-PM-copy-1-scaled-460x460.jpg
     link: /lafayette-travel-agent
 ---
@@ -139,7 +139,7 @@ services:
             {% assign shop_item = site.data.shop | where: "name", item.name | first %}
 <div class="col-lg-3 col-md-6">
                 <div class="item">
-                    <div class="img"> <img src="{{item.image}}" alt="Texture Event Rental | {{item.name}} | Lafayette Wedding Planning Services"> </div>
+                    <div class="img"> <img src="{{item.image}}" alt="Texture Event Rental | {{item.name}} | Lafayette Wedding Planning Services" /> </div>
                     <div class="con">
                         <div class="title">{{item.name}}</div>
                         <div class="arrow"> <a href="{% if shop_item %}{{ shop_item.link }}{% endif %}"><span class="fa-light fa-arrow-right"></span></a> </div>
@@ -154,9 +154,9 @@ services:
                     </div>
                 </div> -->
             {% endfor %}
-   </div>
+   
 
-        </div>
+        
     </section>
     <!-- Testimonials -->
     <section class="testimonials">
