@@ -10,6 +10,11 @@
 			"to": "/client-investment",
 			"status": 301
 		},
+    	{
+			"from": "/home/",
+			"to": "/",
+			"status": 301
+		},
 		{
 			"from": "/client-investment/comments/feed/index.rss",
 			"to": "/wedding-planning-reviews",
