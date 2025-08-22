@@ -10,6 +10,11 @@
 			"to": "/client-investment",
 			"status": 301
 		},
+    {
+			"from": "www.",
+			"to": "/",
+			"status": 301
+		},
     	{
 			"from": "/home/",
 			"to": "/",
