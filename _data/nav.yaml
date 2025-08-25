@@ -1,7 +1,5 @@
 - name: Home
   link: /
-# - name: Weddings
-  # link: /wedding-planning-services
 - name: Shop
   link: /shop
 - name: Portfolio
@@ -11,4 +9,4 @@
 - name: Testimonials
   link: /rental-reviews
 - name: Contact
-  link: /book-a-texture-rental
+  link: /book-texture-rental
