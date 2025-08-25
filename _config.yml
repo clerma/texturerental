@@ -9,6 +9,16 @@ lang: en
 author: Texture Rental Collection
 disqus: null
 google_analytics: G-10B0XPFN94
+address:
+  street: "205 E Amedee Dr"
+  city: "Lafayette"
+  region: "LA"
+  zip: "70583"
+  country: "US"
+latitude: "30.240466"
+longitude: "-92.063560"
+phone: "337-858-7344"
+google_site_verification: ""
 social:
   - name: Facebook
     links: https://www.facebook.com/texturerental
